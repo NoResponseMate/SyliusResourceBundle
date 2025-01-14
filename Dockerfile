@@ -21,6 +21,6 @@ RUN composer update --with-all-dependencies --no-interaction --no-progress
 
 WORKDIR /app/tests/Application
 
-RUN php bin/console doctrine:database:create && php bin/console doctrine:schema:update --force
+RUN php bin/console doctrine:schema:create
 
 WORKDIR /app

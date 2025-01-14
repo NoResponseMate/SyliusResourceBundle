@@ -95,6 +95,12 @@
             </errorLevel>
         </InvalidArgument>
 
+        <InvalidPropertyAssignmentValue>
+            <errorLevel type="suppress">
+                <file name="src/Bundle/EventListener/ORMMappedSuperClassSubscriber.php" />
+            </errorLevel>
+        </InvalidPropertyAssignmentValue>
+
         <InvalidReturnStatement>
             <errorLevel type="suppress">
                 <file name="src/Component/src/Doctrine/Persistence/InMemoryRepository.php" />
@@ -281,7 +287,8 @@
 
         <UndefinedDocblockClass>
             <errorLevel type="suppress">
-                <referencedClass name="UnitEnum"/>
+                <referencedClass name="UnitEnum" />
+                <referencedClass name="Doctrine\ORM\Mapping\AssociationMapping" />
             </errorLevel>
         </UndefinedDocblockClass>
 
