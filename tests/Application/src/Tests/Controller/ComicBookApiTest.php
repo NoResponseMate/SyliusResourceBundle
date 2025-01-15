@@ -19,12 +19,10 @@ use App\Foundry\Factory\ComicBookFactory;
 use App\Foundry\Story\DefaultComicBooksStory;
 use Symfony\Component\HttpFoundation\Response;
 use Zenstruck\Foundry\Test\Factories;
-use Zenstruck\Foundry\Test\ResetDatabase;
 
 final class ComicBookApiTest extends JsonApiTestCase
 {
     use Factories;
-    use ResetDatabase;
 
     /**
      * @test
