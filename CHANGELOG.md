@@ -1,5 +1,17 @@
 ## CHANGELOG
 
+## v1.13.0-ALPHA.1 (2025-01-17)
+
+#### Details
+
+- [#936](https://github.com/Sylius/SyliusResourceBundle/issues/936) [phpspec-2-phpunit] migration of tests (Model) ([@loic425](https://github.com/loic425))
+- [#957](https://github.com/Sylius/SyliusResourceBundle/issues/957) Deprecate VariantWithNoOptionsValuesException ([@GSadee](https://github.com/GSadee))
+- [#959](https://github.com/Sylius/SyliusResourceBundle/issues/959) Create LICENSE_OF_TRADEMARK_AND_LOGO ([@damonsson](https://github.com/damonsson))
+- [#958](https://github.com/Sylius/SyliusResourceBundle/issues/958) Update LICENSE year ([@damonsson](https://github.com/damonsson))
+- [#961](https://github.com/Sylius/SyliusResourceBundle/issues/961) Bump dependencies & Introduce prefer lowest on CI ([@loic425](https://github.com/loic425))
+- [#968](https://github.com/Sylius/SyliusResourceBundle/issues/968) Add support for Doctrine ORM 3 ([@loic425](https://github.com/loic425))
+- [#969](https://github.com/Sylius/SyliusResourceBundle/issues/969) [DX][Internal] Start using Foundry ([@loic425](https://github.com/loic425))
+
 ## v1.12.0 (2024-10-08)
 
 ## v1.12.0-BETA.2 (2024-10-07)
