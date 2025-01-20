@@ -14,20 +14,18 @@ declare(strict_types=1);
 namespace App\Foundry\Story;
 
 use App\Foundry\Factory\BookFactory;
-use function Zenstruck\Foundry\Persistence\flush_after;
 use Zenstruck\Foundry\Story;
 
 final class MoreBooksStory extends Story
 {
     public function build(): void
     {
-        flush_after(function () {
-            foreach (range(1, 22) as $number) {
-                BookFactory::new()
-                    ->withTitle('Book ' . $number)
-                    ->create()
-                ;
-            }
-        });
+        BookFactory::createSequence(
+            function () {
+                foreach (range(1, 22) as $number) {
+                    yield ['title' => 'Book ' . $number];
+                }
+            },
+        );
     }
 }
