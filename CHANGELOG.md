@@ -12,6 +12,14 @@
 - [#968](https://github.com/Sylius/SyliusResourceBundle/issues/968) Add support for Doctrine ORM 3 ([@loic425](https://github.com/loic425))
 - [#969](https://github.com/Sylius/SyliusResourceBundle/issues/969) [DX][Internal] Start using Foundry ([@loic425](https://github.com/loic425))
 
+## v1.12.1 (2025-01-21)
+
+#### Details
+
+- [#936](https://github.com/Sylius/SyliusResourceBundle/issues/936) [phpspec-2-phpunit] migration of tests (Model) ([@loic425](https://github.com/loic425))
+- [#958](https://github.com/Sylius/SyliusResourceBundle/issues/958) Update LICENSE year ([@damonsson](https://github.com/damonsson))
+- [#975](https://github.com/Sylius/SyliusResourceBundle/issues/975) Add missing package and version attributes in deprecated element ([@GSadee](https://github.com/GSadee))
+
 ## v1.12.0 (2024-10-08)
 
 ## v1.12.0-BETA.2 (2024-10-07)
