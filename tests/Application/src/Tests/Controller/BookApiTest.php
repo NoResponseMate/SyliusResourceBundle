@@ -21,12 +21,10 @@ use App\Foundry\Story\MoreBooksStory;
 use PHPUnit\Framework\Attributes\Test;
 use Symfony\Component\HttpFoundation\Response;
 use Zenstruck\Foundry\Test\Factories;
-use Zenstruck\Foundry\Test\ResetDatabase;
 
 class BookApiTest extends JsonApiTestCase
 {
     use Factories;
-    use ResetDatabase;
 
     #[Test]
     public function it_allows_creating_a_book(): void
