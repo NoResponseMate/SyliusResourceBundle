@@ -1,5 +1,15 @@
 ## CHANGELOG
 
+## v1.13.0-ALPHA.2 (2025-01-21)
+
+#### Details
+
+- [#970](https://github.com/Sylius/Sylius/issues/970) [DX][Internal] use Foundry for comic books ([@loic425](https://github.com/loic425))
+- [#973](https://github.com/Sylius/Sylius/issues/973) Fix Delete handling exception previous argument type ([@loic425](https://github.com/loic425))
+- [#971](https://github.com/Sylius/Sylius/issues/971) [DX][Internal] Do not use Alice anymore ([@loic425](https://github.com/loic425))
+- [#963](https://github.com/Sylius/Sylius/issues/963) [Doc] Documentation migration to SyliusStack using gitbook ([@Prometee](https://github.com/Prometee))
+- [#975](https://github.com/Sylius/Sylius/issues/975) Add missing package and version attributes in deprecated element ([@GSadee](https://github.com/GSadee))
+
 ## v1.13.0-ALPHA.1 (2025-01-17)
 
 #### Details
